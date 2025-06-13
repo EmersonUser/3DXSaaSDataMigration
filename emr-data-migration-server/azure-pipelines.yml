@@ -1,0 +1,25 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- main
+- Dev
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- ${{ if eq( variables['Build.SourceBranch'], 'refs/heads/Dev') }}:
+  - script: |      
+      echo "Docker ID: $(dockerId)"
+      echo "Image Name: $(ImageNameDevServer)"
+      echo "Build ID: $(Build.BuildId)"
+      docker build -f Dockerfile -t $(dockerId).azurecr.io/$(ImageNameDevServer):$(Build.BuildId) .
+      docker login $(dockerId).azurecr.io -u $(dockerId) -p $pswd
+      docker push $(dockerId).azurecr.io/$(ImageNameDevServer):$(Build.BuildId)
+    env:
+      pswd: $(dockerPassword)
+    displayName: 'Build and Push Docker Image'

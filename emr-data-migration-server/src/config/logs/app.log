@@ -1,0 +1,667 @@
+[LOG] 2025-05-15T16:45:12.792Z Server running on port 8086
+[LOG] 2025-05-15T16:46:01.121Z Server running on port 8086
+[LOG] 2025-05-15T16:47:38.877Z LT-22383322-YJQOvHWfMbUvzca4ursc9jXK69d1n3
+[LOG] 2025-05-15T16:47:45.333Z matchedMfg -- [
+  [
+    {
+      name: 'mass-OI000186152-00004801',
+      title: 'MfgItem236',
+      description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+      id: '7D56FB4BB0050F006825EA4500004029',
+      type: 'CreateAssembly',
+      modified: '05/15/2025 04:46:22 PM',
+      created: '05/15/2025 01:21:09 PM',
+      revision: '1',
+      state: 'RELEASED',
+      owner: 'e1331143',
+      organization: '0000000001',
+      collabspace: 'Micro Motion',
+      cestamp: '7D56FB4BB0050F0068261A5E00018D26'
+    }
+  ]
+]
+[LOG] 2025-05-15T16:47:45.336Z unmatchedMfg -- []
+[LOG] 2025-05-15T16:47:45.337Z highestRelease =  {
+  name: 'mass-OI000186152-00004801',
+  title: 'MfgItem236',
+  description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+  id: '7D56FB4BB0050F006825EA4500004029',
+  type: 'CreateAssembly',
+  modified: '05/15/2025 04:46:22 PM',
+  created: '05/15/2025 01:21:09 PM',
+  revision: '1',
+  state: 'RELEASED',
+  owner: 'e1331143',
+  organization: '0000000001',
+  collabspace: 'Micro Motion',
+  cestamp: '7D56FB4BB0050F0068261A5E00018D26'
+}
+[LOG] 2025-05-15T16:47:45.337Z matchedJsonData =  [
+  {
+    Custom: '',
+    Title: 'MfgItem236',
+    'Manufacturing Item Type': 'MMIATONonSellableModel',
+    'Spec Rev': 2,
+    'Make/Buy': 'Buy',
+    'Plant Name': 'MMC',
+    Template: '',
+    'Engineering Item Name': 'MfgItem239',
+    'Engineering Item Type': 'MMIATONonSellableModel',
+    'Engineering Item Revision': '02',
+    Description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+    'FSG ERP Export': 'Yes',
+    Comments: '',
+    'Connect Method': 'Direct',
+    'Agreed Unit Price': '0.0',
+    'Production End Date': '',
+    '(Relationship) Production Make Buy Code': 'Make',
+    'Production Purpose': 'Not Applicable',
+    'Production Start Date': '',
+    'RTS ID': '',
+    'Show Sub Components': 'None',
+    'Show Target Cost': 'No',
+    'Show This Supplier Price To Other Suppliers': 'No',
+    'Show This Supplier To Other Suppliers': 'No',
+    'Source Qualification Status': 'Planning',
+    'Source Selection Status': 'Candidate',
+    'Sub Component Level': '',
+    'FSG Extended Attributes': '',
+    'Doc-In': 'System',
+    'ERP Status': 'Active',
+    'Lead Plant': 'FALSE',
+    'MBOM Dependent Lead Plant': '',
+    RoHS: 'No',
+    Sequence: '5',
+    'MMI Additional Sequence': '0',
+    'MMI Oracle Template': 'EMR ATO MODEL VIRTUAL FLOW',
+    Status: 'History'
+  }
+]
+[LOG] 2025-05-15T16:47:45.339Z matched ---  [
+  [
+    {
+      name: 'prd-OI000186152-00115835',
+      title: 'MfgItem239',
+      id: '7D56FB4BB0050F006825E49400001ABF',
+      type: 'VPMReference',
+      modified: '05/15/2025 04:30:08 PM',
+      created: '05/15/2025 12:56:56 PM',
+      revision: '01',
+      state: 'RELEASED',
+      owner: 'e1331143',
+      organization: 'BU-0000001',
+      collabspace: 'Micro Motion',
+      cestamp: '7D56FB4BB0050F006826169E00018C34'
+    },
+    {
+      name: 'prd-OI000186152-00115835',
+      title: 'MfgItem239',
+      id: '7D56FB4BB0050F006826169E00018C36',
+      type: 'VPMReference',
+      modified: '05/15/2025 04:30:23 PM',
+      created: '05/15/2025 04:30:22 PM',
+      revision: '02',
+      state: 'IN_WORK',
+      owner: 'e1331143',
+      organization: 'BU-0000001',
+      collabspace: 'Micro Motion',
+      cestamp: '7D56FB4BB0050F006826169E00018C34'
+    }
+  ]
+]
+[LOG] 2025-05-15T16:47:45.341Z Payload for revise {
+  data: [
+    {
+      physicalid: '7D56FB4BB0050F006825EA4500004029',
+      modifiedAttributes: [Object],
+      proposedRevision: undefined
+    }
+  ],
+  folderid: null,
+  notificationTimeout: 600,
+  metrics: {
+    UXName: 'Revise',
+    client_app_domain: '3DEXPERIENCE 3DDashboard',
+    client_app_name: 'ENXENG_AP'
+  }
+}
+[LOG] 2025-05-15T16:47:45.341Z Revision number is greater than the current revision false
+[LOG] 2025-05-15T16:47:47.907Z ###Response from revise {
+  report: [],
+  results: [
+    {
+      versionid: '7D56FB4BB0050F006825EA4700004031',
+      majorid: '7D56FB4BB0050F0068261AB300018D42',
+      logicalid: '7D56FB4BB0050F006825EA4700004031',
+      physicalid: '7D56FB4BB0050F0068261AB300018D42',
+      derivedfromphysicalid: '7D56FB4BB0050F006825EA4700004031',
+      revision: null
+    },
+    {
+      versionid: '7D56FB4BB0050F006825EA4500004029',
+      majorid: '7D56FB4BB0050F0068261AB300018D3C',
+      logicalid: '7D56FB4BB0050F006825EA4500004029',
+      physicalid: '7D56FB4BB0050F0068261AB300018D3C',
+      'attribute[PLMReference.V_DerivedFrom]': '7D56FB4BB0050F006825EA4500004029',
+      derivedfromphysicalid: '7D56FB4BB0050F006825EA4500004029',
+      revision: '2'
+    }
+  ],
+  status: 'success'
+}
+[LOG] 2025-05-15T16:47:51.391Z resRevisedMfgItemDetails =  [
+  {
+    name: 'mass-OI000186152-00004801',
+    title: 'MfgItem236',
+    description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+    id: '7D56FB4BB0050F0068261AB300018D3C',
+    type: 'CreateAssembly',
+    modified: '5/15/2025 4:47:48 PM',
+    created: '5/15/2025 4:47:47 PM',
+    revision: '2',
+    state: 'IN_WORK',
+    owner: 'e1331143',
+    organization: '0000000001',
+    collabspace: 'Micro Motion',
+    cestamp: '7D56FB4BB0050F0068261AB300018D3A'
+  }
+]
+[LOG] 2025-05-15T16:47:51.392Z match =  {
+  name: 'prd-OI000186152-00115835',
+  title: 'MfgItem239',
+  id: '7D56FB4BB0050F006826169E00018C36',
+  type: 'VPMReference',
+  modified: '05/15/2025 04:30:23 PM',
+  created: '05/15/2025 04:30:22 PM',
+  revision: '02',
+  state: 'IN_WORK',
+  owner: 'e1331143',
+  organization: 'BU-0000001',
+  collabspace: 'Micro Motion',
+  cestamp: '7D56FB4BB0050F006826169E00018C34'
+}
+[LOG] 2025-05-15T16:47:52.974Z title =  MfgItem236
+[LOG] 2025-05-15T16:47:52.975Z revision =  2
+[LOG] 2025-05-15T16:47:52.975Z jsonData =  [
+  {
+    Custom: '',
+    Title: 'MfgItem236',
+    'Manufacturing Item Type': 'MMIATONonSellableModel',
+    'Spec Rev': 2,
+    'Make/Buy': 'Buy',
+    'Plant Name': 'MMC',
+    Template: '',
+    'Engineering Item Name': 'MfgItem239',
+    'Engineering Item Type': 'MMIATONonSellableModel',
+    'Engineering Item Revision': '02',
+    Description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+    'FSG ERP Export': 'Yes',
+    Comments: '',
+    'Connect Method': 'Direct',
+    'Agreed Unit Price': '0.0',
+    'Production End Date': '',
+    '(Relationship) Production Make Buy Code': 'Make',
+    'Production Purpose': 'Not Applicable',
+    'Production Start Date': '',
+    'RTS ID': '',
+    'Show Sub Components': 'None',
+    'Show Target Cost': 'No',
+    'Show This Supplier Price To Other Suppliers': 'No',
+    'Show This Supplier To Other Suppliers': 'No',
+    'Source Qualification Status': 'Planning',
+    'Source Selection Status': 'Candidate',
+    'Sub Component Level': '',
+    'FSG Extended Attributes': '',
+    'Doc-In': 'System',
+    'ERP Status': 'Active',
+    'Lead Plant': 'FALSE',
+    'MBOM Dependent Lead Plant': '',
+    RoHS: 'No',
+    Sequence: '5',
+    'MMI Additional Sequence': '0',
+    'MMI Oracle Template': 'EMR ATO MODEL VIRTUAL FLOW',
+    Status: 'History'
+  }
+]
+[LOG] 2025-05-15T16:55:10.530Z Server running on port 8086
+[LOG] 2025-05-15T16:55:11.645Z Server running on port 8086
+[LOG] 2025-05-15T16:56:04.401Z Server running on port 8086
+[LOG] 2025-05-15T16:56:44.190Z LT-23270688-7JQtZaGpkE2GsVPcbCda2ZodZrDA9G
+[LOG] 2025-05-15T16:56:51.637Z matchedMfg -- [
+  [
+    {
+      name: 'mass-OI000186152-00004801',
+      title: 'MfgItem236',
+      description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+      id: '7D56FB4BB0050F006825EA4500004029',
+      type: 'CreateAssembly',
+      modified: '05/15/2025 04:55:34 PM',
+      created: '05/15/2025 01:21:09 PM',
+      revision: '1',
+      state: 'RELEASED',
+      owner: 'e1331143',
+      organization: '0000000001',
+      collabspace: 'Micro Motion',
+      cestamp: '7D56FB4BB0050F0068261C8600018D96'
+    }
+  ]
+]
+[LOG] 2025-05-15T16:56:51.639Z unmatchedMfg -- []
+[LOG] 2025-05-15T16:56:51.639Z highestRelease =  {
+  name: 'mass-OI000186152-00004801',
+  title: 'MfgItem236',
+  description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+  id: '7D56FB4BB0050F006825EA4500004029',
+  type: 'CreateAssembly',
+  modified: '05/15/2025 04:55:34 PM',
+  created: '05/15/2025 01:21:09 PM',
+  revision: '1',
+  state: 'RELEASED',
+  owner: 'e1331143',
+  organization: '0000000001',
+  collabspace: 'Micro Motion',
+  cestamp: '7D56FB4BB0050F0068261C8600018D96'
+}
+[LOG] 2025-05-15T16:56:51.640Z matchedJsonData =  [
+  {
+    Custom: '',
+    Title: 'MfgItem236',
+    'Manufacturing Item Type': 'MMIATONonSellableModel',
+    'Spec Rev': 2,
+    'Make/Buy': 'Buy',
+    'Plant Name': 'MMC',
+    Template: '',
+    'Engineering Item Name': 'MfgItem239',
+    'Engineering Item Type': 'MMIATONonSellableModel',
+    'Engineering Item Revision': '02',
+    Description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+    'FSG ERP Export': 'Yes',
+    Comments: '',
+    'Connect Method': 'Direct',
+    'Agreed Unit Price': '0.0',
+    'Production End Date': '',
+    '(Relationship) Production Make Buy Code': 'Make',
+    'Production Purpose': 'Not Applicable',
+    'Production Start Date': '',
+    'RTS ID': '',
+    'Show Sub Components': 'None',
+    'Show Target Cost': 'No',
+    'Show This Supplier Price To Other Suppliers': 'No',
+    'Show This Supplier To Other Suppliers': 'No',
+    'Source Qualification Status': 'Planning',
+    'Source Selection Status': 'Candidate',
+    'Sub Component Level': '',
+    'FSG Extended Attributes': '',
+    'Doc-In': 'System',
+    'ERP Status': 'Active',
+    'Lead Plant': 'FALSE',
+    'MBOM Dependent Lead Plant': '',
+    RoHS: 'No',
+    Sequence: '5',
+    'MMI Additional Sequence': '0',
+    'MMI Oracle Template': 'EMR ATO MODEL VIRTUAL FLOW',
+    Status: 'History'
+  }
+]
+[LOG] 2025-05-15T16:56:51.641Z matched ---  [
+  [
+    {
+      name: 'prd-OI000186152-00115835',
+      title: 'MfgItem239',
+      id: '7D56FB4BB0050F006825E49400001ABF',
+      type: 'VPMReference',
+      modified: '05/15/2025 04:30:08 PM',
+      created: '05/15/2025 12:56:56 PM',
+      revision: '01',
+      state: 'RELEASED',
+      owner: 'e1331143',
+      organization: 'BU-0000001',
+      collabspace: 'Micro Motion',
+      cestamp: '7D56FB4BB0050F006826169E00018C34'
+    },
+    {
+      name: 'prd-OI000186152-00115835',
+      title: 'MfgItem239',
+      id: '7D56FB4BB0050F006826169E00018C36',
+      type: 'VPMReference',
+      modified: '05/15/2025 04:30:23 PM',
+      created: '05/15/2025 04:30:22 PM',
+      revision: '02',
+      state: 'IN_WORK',
+      owner: 'e1331143',
+      organization: 'BU-0000001',
+      collabspace: 'Micro Motion',
+      cestamp: '7D56FB4BB0050F006826169E00018C34'
+    }
+  ]
+]
+[LOG] 2025-05-15T16:56:51.642Z Payload for revise {
+  data: [
+    {
+      physicalid: '7D56FB4BB0050F006825EA4500004029',
+      modifiedAttributes: [Object],
+      proposedRevision: undefined
+    }
+  ],
+  folderid: null,
+  notificationTimeout: 600,
+  metrics: {
+    UXName: 'Revise',
+    client_app_domain: '3DEXPERIENCE 3DDashboard',
+    client_app_name: 'ENXENG_AP'
+  }
+}
+[LOG] 2025-05-15T16:56:51.643Z Revision number is greater than the current revision false
+[LOG] 2025-05-15T16:56:54.262Z ###Response from revise {
+  report: [],
+  results: [
+    {
+      versionid: '7D56FB4BB0050F006825EA4700004031',
+      majorid: '31E73915240C080068261CD50001B178',
+      logicalid: '7D56FB4BB0050F006825EA4700004031',
+      physicalid: '31E73915240C080068261CD50001B178',
+      derivedfromphysicalid: '7D56FB4BB0050F006825EA4700004031',
+      revision: null
+    },
+    {
+      versionid: '7D56FB4BB0050F006825EA4500004029',
+      majorid: '31E73915240C080068261CD50001B172',
+      logicalid: '7D56FB4BB0050F006825EA4500004029',
+      physicalid: '31E73915240C080068261CD50001B172',
+      'attribute[PLMReference.V_DerivedFrom]': '7D56FB4BB0050F006825EA4500004029',
+      derivedfromphysicalid: '7D56FB4BB0050F006825EA4500004029',
+      revision: '2'
+    }
+  ],
+  status: 'success'
+}
+[LOG] 2025-05-15T16:56:56.996Z resRevisedMfgItemDetails =  [
+  {
+    name: 'mass-OI000186152-00004801',
+    title: 'MfgItem236',
+    description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+    id: '31E73915240C080068261CD50001B172',
+    type: 'CreateAssembly',
+    modified: '5/15/2025 4:56:54 PM',
+    created: '5/15/2025 4:56:53 PM',
+    revision: '2',
+    state: 'IN_WORK',
+    owner: 'e1331143',
+    organization: '0000000001',
+    collabspace: 'Micro Motion',
+    cestamp: '31E73915240C080068261CD50001B170'
+  }
+]
+[LOG] 2025-05-15T16:56:56.997Z match =  {
+  name: 'prd-OI000186152-00115835',
+  title: 'MfgItem239',
+  id: '7D56FB4BB0050F006826169E00018C36',
+  type: 'VPMReference',
+  modified: '05/15/2025 04:30:23 PM',
+  created: '05/15/2025 04:30:22 PM',
+  revision: '02',
+  state: 'IN_WORK',
+  owner: 'e1331143',
+  organization: 'BU-0000001',
+  collabspace: 'Micro Motion',
+  cestamp: '7D56FB4BB0050F006826169E00018C34'
+}
+[LOG] 2025-05-15T16:56:58.581Z title =  MfgItem236
+[LOG] 2025-05-15T16:56:58.582Z revision =  2
+[LOG] 2025-05-15T16:56:58.583Z jsonData =  [
+  {
+    Custom: '',
+    Title: 'MfgItem236',
+    'Manufacturing Item Type': 'MMIATONonSellableModel',
+    'Spec Rev': 2,
+    'Make/Buy': 'Buy',
+    'Plant Name': 'MMC',
+    Template: '',
+    'Engineering Item Name': 'MfgItem239',
+    'Engineering Item Type': 'MMIATONonSellableModel',
+    'Engineering Item Revision': '02',
+    Description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+    'FSG ERP Export': 'Yes',
+    Comments: '',
+    'Connect Method': 'Direct',
+    'Agreed Unit Price': '0.0',
+    'Production End Date': '',
+    '(Relationship) Production Make Buy Code': 'Make',
+    'Production Purpose': 'Not Applicable',
+    'Production Start Date': '',
+    'RTS ID': '',
+    'Show Sub Components': 'None',
+    'Show Target Cost': 'No',
+    'Show This Supplier Price To Other Suppliers': 'No',
+    'Show This Supplier To Other Suppliers': 'No',
+    'Source Qualification Status': 'Planning',
+    'Source Selection Status': 'Candidate',
+    'Sub Component Level': '',
+    'FSG Extended Attributes': '',
+    'Doc-In': 'System',
+    'ERP Status': 'Active',
+    'Lead Plant': 'FALSE',
+    'MBOM Dependent Lead Plant': '',
+    RoHS: 'No',
+    Sequence: '5',
+    'MMI Additional Sequence': '0',
+    'MMI Oracle Template': 'EMR ATO MODEL VIRTUAL FLOW',
+    Status: 'History'
+  }
+]
+[LOG] 2025-05-15T16:56:58.585Z PlantName =  MMC
+[LOG] 2025-05-15T16:57:01.468Z libraryDetails =  {"totalItems":1,"member":[{"id":"B56EF85DED292C0066E35E82000136AD","name":"Library-OI000186152-00000031","title":"OLD_Micro Motion","libraryUsage":"Definition","description":"Library_MM","type":"General Library","modified":"5/15/2025 3:40:17 PM","created":"9/12/2024 9:35:31 PM","revision":"-","state":"Active","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion","ChildClasses":{"totalItems":4,"member":[{"id":"B56EF85D4EC8340066ED07E90007B1B3","name":"Class-OI000186152-00000138","title":"ETO Package","classUsage":"Definition","description":"","type":"General Class","state":"Inactive","modified":"9/20/2024 5:28:26 AM","created":"9/20/2024 5:28:24 AM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"},{"id":"B56EF85DED292C0066E35F97000136B1","name":"Class-OI000186152-00000132","title":"Factories","classUsage":"Definition","description":"Micro Motion Factories","type":"General Class","state":"Active","modified":"5/15/2025 2:47:20 PM","created":"9/12/2024 9:39:58 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion","ChildClasses":{"totalItems":3,"member":[{"id":"B56EF85DED292C0066E35FC2000136B3","name":"Class-OI000186152-00000133","title":"MVO","classUsage":"Definition","description":"Master Validation Org - Oracle","type":"General Class","state":"Active","modified":"5/15/2025 2:47:20 PM","created":"9/12/2024 9:40:48 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"},{"id":"B56EF85DED292C0066E35FEE000136B5","name":"Class-OI000186152-00000134","title":"MMB","classUsage":"Definition","description":"Boulder Factory - Oracle","type":"General Class","state":"Active","modified":"5/15/2025 2:45:36 PM","created":"9/12/2024 9:41:35 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"},{"id":"B56EF85DED292C0066E36019000136B7","name":"Class-OI000186152-00000135","title":"MMC","classUsage":"Definition","description":"Chihuahua Factory - Oracle","type":"General Class","state":"Active","modified":"5/15/2025 2:46:30 PM","created":"9/12/2024 9:42:07 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"}]}},{"id":"474D00260AB9110067D9570000000365","name":"Class-OI000186152-00000212","title":"Product Types","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 3:40:17 PM","created":"3/18/2025 11:20:55 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement","ChildClasses":{"totalItems":1,"member":[{"id":"474D00260AB9110067D9572A0000037D","name":"Class-OI000186152-00000213","title":"Fastener","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 3:40:17 PM","created":"3/18/2025 11:21:25 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement"}]}},{"id":"474D00260AB9110067DA83900001D04F","name":"Class-OI000186152-00000214","title":"Specification Document Types","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 2:59:17 PM","created":"3/19/2025 8:43:33 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement","ChildClasses":{"totalItems":1,"member":[{"id":"474D00260AB9110067DA846C0001D051","name":"Class-OI000186152-00000215","title":"Engineering Drawing","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 2:59:17 PM","created":"3/19/2025 8:47:07 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement"}]}}]}}],"nlsLabel":{"id":"Id","name":"Name","title":"Title","libraryUsage":"Purpose","classUsage":"Purpose","description":"Description","type":"Type","modified":"Modification Date","created":"Creation Date","revision":"Revision","state":"State","owner":"Owner"}}
+[LOG] 2025-05-15T16:57:01.469Z libraryDetails =  {
+  totalItems: 1,
+  member: [
+    {
+      id: 'B56EF85DED292C0066E35E82000136AD',
+      name: 'Library-OI000186152-00000031',
+      title: 'OLD_Micro Motion',
+      libraryUsage: 'Definition',
+      description: 'Library_MM',
+      type: 'General Library',
+      modified: '5/15/2025 3:40:17 PM',
+      created: '9/12/2024 9:35:31 PM',
+      revision: '-',
+      state: 'Active',
+      owner: 'Cornel Gazdaru',
+      organization: 'Company Name',
+      collabspace: 'Micro Motion',
+      ChildClasses: [Object]
+    }
+  ],
+  nlsLabel: {
+    id: 'Id',
+    name: 'Name',
+    title: 'Title',
+    libraryUsage: 'Purpose',
+    classUsage: 'Purpose',
+    description: 'Description',
+    type: 'Type',
+    modified: 'Modification Date',
+    created: 'Creation Date',
+    revision: 'Revision',
+    state: 'State',
+    owner: 'Owner'
+  }
+}
+[LOG] 2025-05-15T16:57:01.470Z classId =  B56EF85DED292C0066E36019000136B7
+[LOG] 2025-05-15T16:57:03.892Z classifyItem =  {
+  ObjectsClassified: 1,
+  ObjectsNotClassified: 0,
+  StatusOfObjects: {
+    '7D56FB4BB0050F006826169E00018C36': { status: 'OK', ClassifiedItem: [Object] }
+  }
+}
+[LOG] 2025-05-15T16:57:05.206Z cestamp =  31E73915240C080068261CDF0001B1A8
+[LOG] 2025-05-15T16:57:05.208Z payload to update service =  [
+  {
+    referencedObject: {
+      source: 'https://oi000186152-us1-space.3dexperience.3ds.com/enovia',
+      type: 'dslib:ClassifiedItem',
+      identifier: '7D56FB4BB0050F006826169E00018C36',
+      relativePath: 'resources/v1/modeler/dslib/dslib:ClassifiedItem/7D56FB4BB0050F006826169E00018C36'
+    },
+    attributes: {
+      cestamp: '31E73915240C080068261CDF0001B1A8',
+      MMCOracleTemplate: 'EMR ATO MODEL VIRTUAL FLOW',
+      MMCPlantId: 'Test',
+      MMCPlantStatus: 'Test',
+      MMCERPStatus: 'Active',
+      MMCERPExport: 'Yes'
+    }
+  }
+]
+[LOG] 2025-05-15T16:57:07.335Z updateClassifiedItem =  {
+  totalItems: 1,
+  member: [
+    {
+      id: '7D56FB4BB0050F006826169E00018C36',
+      name: 'prd-OI000186152-00115835',
+      cestamp: '31E73915240C080068261CE30001B1D8'
+    }
+  ],
+  nlsLabel: {
+    id: 'Id',
+    name: 'Name',
+    title: 'Title',
+    libraryUsage: 'Purpose',
+    classUsage: 'Purpose'
+  }
+}
+[LOG] 2025-05-15T16:57:43.025Z Server running on port 8086
+[LOG] 2025-05-15T17:00:28.815Z Server running on port 8086
+[LOG] 2025-05-15T17:10:20.461Z Server running on port 8086
+[LOG] 2025-05-15T17:10:40.941Z LT-23134017-qX1tfy6vihwE7cRgSa3NEkTW7miHHL
+[LOG] 2025-05-15T17:10:48.106Z matchedMfg -- []
+[LOG] 2025-05-15T17:10:48.107Z unmatchedMfg -- []
+[LOG] 2025-05-15T17:10:48.107Z item --302--  {
+  Custom: 'custom',
+  Title: 'MfgItem248',
+  'Manufacturing Item Type': 'MMIATONonSellableModel',
+  'Spec Rev': 3,
+  'Make/Buy': 'Buy',
+  'Plant Name': 'MMC',
+  Template: '',
+  'Engineering Item Name': 'MfgItem246',
+  'Engineering Item Type': 'MMIATONonSellableModel',
+  'Engineering Item Revision': '03',
+  Description: 'MAG-FLOW WELDMENT(SUB-ASSY), 2.5 INCH',
+  'FSG ERP Export': 'Yes',
+  Comments: '',
+  'Connect Method': 'Direct',
+  'Agreed Unit Price': '0.0',
+  'Production End Date': '',
+  '(Relationship) Production Make Buy Code': 'Make',
+  'Production Purpose': 'Not Applicable',
+  'Production Start Date': '',
+  'RTS ID': '',
+  'Show Sub Components': 'None',
+  'Show Target Cost': 'No',
+  'Show This Supplier Price To Other Suppliers': 'No',
+  'Show This Supplier To Other Suppliers': 'No',
+  'Source Qualification Status': 'Planning',
+  'Source Selection Status': 'Candidate',
+  'Sub Component Level': '',
+  'FSG Extended Attributes': '',
+  'Doc-In': 'System',
+  'ERP Status': 'Active',
+  'Lead Plant': 'FALSE',
+  'MBOM Dependent Lead Plant': '',
+  RoHS: 'No',
+  Sequence: '5',
+  'MMI Additional Sequence': '0',
+  'MMI Oracle Template': 'EMR ATO MODEL VIRTUAL FLOW',
+  Status: 'History'
+}
+[LOG] 2025-05-15T17:10:54.727Z Payload for revise {
+  data: [
+    {
+      physicalid: '31E73915240C08006826201900005B95',
+      modifiedAttributes: [Object],
+      proposedRevision: 3
+    }
+  ],
+  folderid: null,
+  notificationTimeout: 600,
+  metrics: {
+    UXName: 'Revise',
+    client_app_domain: '3DEXPERIENCE 3DDashboard',
+    client_app_name: 'ENXENG_AP'
+  }
+}
+[LOG] 2025-05-15T17:10:54.729Z Revision number is greater than the current revision false
+[LOG] 2025-05-15T17:10:57.224Z ###Response from revise {
+  report: [],
+  results: [
+    {
+      versionid: '31E73915240C08006826201900005B95',
+      majorid: '31E73915240C0800682620200001B2A0',
+      logicalid: '31E73915240C08006826201900005B95',
+      physicalid: '31E73915240C0800682620200001B2A0',
+      'attribute[PLMReference.V_DerivedFrom]': '31E73915240C08006826201900005B95',
+      derivedfromphysicalid: '31E73915240C08006826201900005B95',
+      revision: '3'
+    }
+  ],
+  status: 'success'
+}
+[LOG] 2025-05-15T17:11:01.380Z libraryDetails =  {"totalItems":1,"member":[{"id":"B56EF85DED292C0066E35E82000136AD","name":"Library-OI000186152-00000031","title":"OLD_Micro Motion","libraryUsage":"Definition","description":"Library_MM","type":"General Library","modified":"5/15/2025 4:57:04 PM","created":"9/12/2024 9:35:31 PM","revision":"-","state":"Active","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion","ChildClasses":{"totalItems":4,"member":[{"id":"B56EF85D4EC8340066ED07E90007B1B3","name":"Class-OI000186152-00000138","title":"ETO Package","classUsage":"Definition","description":"","type":"General Class","state":"Inactive","modified":"9/20/2024 5:28:26 AM","created":"9/20/2024 5:28:24 AM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"},{"id":"B56EF85DED292C0066E35F97000136B1","name":"Class-OI000186152-00000132","title":"Factories","classUsage":"Definition","description":"Micro Motion Factories","type":"General Class","state":"Active","modified":"5/15/2025 4:57:04 PM","created":"9/12/2024 9:39:58 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion","ChildClasses":{"totalItems":3,"member":[{"id":"B56EF85DED292C0066E35FC2000136B3","name":"Class-OI000186152-00000133","title":"MVO","classUsage":"Definition","description":"Master Validation Org - Oracle","type":"General Class","state":"Active","modified":"5/15/2025 2:47:20 PM","created":"9/12/2024 9:40:48 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"},{"id":"B56EF85DED292C0066E35FEE000136B5","name":"Class-OI000186152-00000134","title":"MMB","classUsage":"Definition","description":"Boulder Factory - Oracle","type":"General Class","state":"Active","modified":"5/15/2025 2:45:36 PM","created":"9/12/2024 9:41:35 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"},{"id":"B56EF85DED292C0066E36019000136B7","name":"Class-OI000186152-00000135","title":"MMC","classUsage":"Definition","description":"Chihuahua Factory - Oracle","type":"General Class","state":"Active","modified":"5/15/2025 4:57:04 PM","created":"9/12/2024 9:42:07 PM","revision":"-","owner":"Cornel Gazdaru","organization":"Company Name","collabspace":"Micro Motion"}]}},{"id":"474D00260AB9110067D9570000000365","name":"Class-OI000186152-00000212","title":"Product Types","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 3:40:17 PM","created":"3/18/2025 11:20:55 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement","ChildClasses":{"totalItems":1,"member":[{"id":"474D00260AB9110067D9572A0000037D","name":"Class-OI000186152-00000213","title":"Fastener","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 3:40:17 PM","created":"3/18/2025 11:21:25 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement"}]}},{"id":"474D00260AB9110067DA83900001D04F","name":"Class-OI000186152-00000214","title":"Specification Document Types","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 2:59:17 PM","created":"3/19/2025 8:43:33 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement","ChildClasses":{"totalItems":1,"member":[{"id":"474D00260AB9110067DA846C0001D051","name":"Class-OI000186152-00000215","title":"Engineering Drawing","classUsage":"Definition","description":"","type":"General Class","state":"Active","modified":"5/15/2025 2:59:17 PM","created":"3/19/2025 8:47:07 AM","revision":"-","owner":"Sudarshan Sambamurthy","organization":"BU-0000001","collabspace":"Rosemount Measurement"}]}}]}}],"nlsLabel":{"id":"Id","name":"Name","title":"Title","libraryUsage":"Purpose","classUsage":"Purpose","description":"Description","type":"Type","modified":"Modification Date","created":"Creation Date","revision":"Revision","state":"State","owner":"Owner"}}
+[LOG] 2025-05-15T17:11:03.921Z classifyItem =  {
+  ObjectsClassified: 1,
+  ObjectsNotClassified: 0,
+  StatusOfObjects: {
+    '7D56FB4BB0050F0068261FBA00018E0C': { status: 'OK', ClassifiedItem: [Object] }
+  }
+}
+[LOG] 2025-05-15T17:11:05.208Z cestamp =  31E73915240C0800682620270001B2C8
+[LOG] 2025-05-15T17:11:05.209Z payload to update service =  [
+  {
+    referencedObject: {
+      source: 'https://oi000186152-us1-space.3dexperience.3ds.com/enovia',
+      type: 'dslib:ClassifiedItem',
+      identifier: '7D56FB4BB0050F0068261FBA00018E0C',
+      relativePath: 'resources/v1/modeler/dslib/dslib:ClassifiedItem/7D56FB4BB0050F0068261FBA00018E0C'
+    },
+    attributes: {
+      cestamp: '31E73915240C0800682620270001B2C8',
+      MMCOracleTemplate: 'EMR ATO MODEL VIRTUAL FLOW',
+      MMCPlantId: 'Test',
+      MMCPlantStatus: 'Test',
+      MMCERPStatus: 'Active',
+      MMCERPExport: 'Yes'
+    }
+  }
+]
+[LOG] 2025-05-15T17:11:07.488Z updateClassifiedItem =  {
+  totalItems: 1,
+  member: [
+    {
+      id: '7D56FB4BB0050F0068261FBA00018E0C',
+      name: 'prd-OI000186152-00116022',
+      cestamp: '31E73915240C08006826202B0001B2F8'
+    }
+  ],
+  nlsLabel: {
+    id: 'Id',
+    name: 'Name',
+    title: 'Title',
+    libraryUsage: 'Purpose',
+    classUsage: 'Purpose'
+  }
+}
+[LOG] 2025-05-15T17:21:21.871Z Server running on port 8086
+[LOG] 2025-05-15T17:21:48.345Z Server running on port 8086
+[LOG] 2025-05-15T17:25:34.476Z Server running on port 8086
+[LOG] 2025-05-15T17:26:41.536Z Server running on port 8086
+[LOG] 2025-05-15T17:27:09.717Z Server running on port 8086
+[LOG] 2025-05-15T17:28:03.319Z Server running on port 8086
+[LOG] 2025-05-15T17:28:17.594Z Server running on port 8086
+[LOG] 2025-05-15T17:28:27.092Z Server running on port 8086
+[LOG] 2025-05-15T17:29:42.049Z Server running on port 8086
+[LOG] 2025-05-15T17:30:32.121Z Server running on port 8086
+[LOG] 2025-05-15T17:31:08.912Z Server running on port 8086
+[LOG] 2025-05-15T17:32:10.564Z Server running on port 8086
+[LOG] 2025-05-15T17:32:29.405Z Server running on port 8086
+[LOG] 2025-05-15T17:32:44.605Z Server running on port 8086
