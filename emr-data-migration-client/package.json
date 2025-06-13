@@ -1,0 +1,59 @@
+{
+  "name": "react-widget-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "@tanstack/react-table": "^8.20.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.8.3",
+    "bootstrap": "^5.3.3",
+    "exceljs": "^4.4.0",
+    "http-proxy-middleware": "^3.0.3",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.6",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-scripts": "5.0.1",
+    "redux-logger": "^3.0.6",
+    "requirejs": "^2.3.7",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "globals": {
+      "__webpack_public_path__": "writable",
+      "widget": "readonly",
+      "define": "readonly"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-app-rewired": "^2.2.1"
+  }
+}

@@ -1,0 +1,118 @@
+/* General Card Styles */
+.custom-card {
+    width: 450px;
+    margin: 2rem auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 25px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .custom-footer {
+    font-size: 0.9rem;
+    color: #777;
+    padding: 12px;
+    border-top: 1px solid #eee;
+  }
+  
+  /* Button Styles */
+  .custom-button {
+    background: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+    padding: 12px 18px;
+    transition: background 0.3s ease-in-out;
+    width: 80%;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .custom-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Upload Section Styles */
+  .upload-icon {
+    font-size: 55px;
+    color: #007bff;
+    display: block;
+    margin: 15px auto;
+  }
+  
+  .download-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .import-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .custom-select {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 40%;
+    max-width: 300px;
+  }
+  
+  .custom-file-input {
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+  
+  .file-upload-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .response-message {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dfe3f3;
+    color: #464b71;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-weight: bold;
+  }

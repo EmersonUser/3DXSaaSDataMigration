@@ -1,0 +1,132 @@
+/* General table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+/* Table header styling */
+thead {
+  background-color: #f2f2f2;
+  color: #77797c;
+  height: 25px;
+}
+ 
+th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+  color: #77797c;
+}
+ 
+th:hover {
+  background-color: #e0e0e0;
+  color: #57585b;
+}
+ 
+ 
+ 
+/* Table body styling */
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+ 
+}
+ 
+ 
+/* Styling for the first column in the body (ID column) */
+tbody tr td:first-child {
+  background-color: #f2f2f2; /* Same color as the header text */
+  font-weight: bold; /* Optional for emphasis */
+}
+ 
+tbody tr:hover{
+  background-color: #f2f2f2;
+}
+ 
+/* Icon styling for the first column */
+tbody tr td:first-child .icon {
+  margin-right: 8px;
+  vertical-align: middle;
+  display: inline-flex;
+  width: 20px;
+}
+ 
+tbody tr td:first-child .icon img {
+  height: 20px;
+  width: 20px;
+}
+/* tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+} */
+ 
+ 
+td {
+  padding: 10px 15px;
+  text-align: left;
+  color: #2c3e50;
+  vertical-align: middle;
+  align-items: center;
+}
+/* Focus outline for editable cells */
+td input:focus,
+td textarea:focus {
+  outline: 2px solid rgba(0, 86, 100, 0.7); /* Blue outline with opacity */
+  border-color: rgba(10, 111, 166, 0.5); /* Match the border color with opacity */
+  border-radius: 2px;
+ 
+}
+ 
+ 
+ 
+ 
+ 
+/* Responsive styling */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+ 
+  th, td {
+    padding: 8px 10px;
+  }
+ 
+ 
+ 
+}
+ 
+@media (max-width: 480px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+ 
+  th, td {
+    padding: 6px 8px;
+  }
+}
+ 
+ 
+.icon{
+  margin-left: 5px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+ 
+}
+ 
+input{
+  border-top-width: 0px;    
+  border-right-width: 0px;    
+  border-left-width: 0px;    
+  border-bottom-width: 0px;
+}
+ 
+ 
